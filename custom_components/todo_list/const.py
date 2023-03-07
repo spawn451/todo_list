@@ -1,0 +1,11 @@
+"""All constants related to the todo list component."""
+DOMAIN = "todo_list"
+EVENT_TODO_LIST_UPDATED = "todo_list_updated"
+
+SERVICE_ADD_ITEM = "add_item"
+SERVICE_REMOVE_ITEM = "remove_item"
+SERVICE_COMPLETE_ITEM = "complete_item"
+SERVICE_INCOMPLETE_ITEM = "incomplete_item"
+SERVICE_COMPLETE_ALL = "complete_all"
+SERVICE_INCOMPLETE_ALL = "incomplete_all"
+SERVICE_CLEAR_COMPLETED_ITEMS = "clear_completed_items"
